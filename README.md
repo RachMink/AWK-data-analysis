@@ -3,13 +3,15 @@ use AWK to write a Script analyzing a CSV file
 use makefile to run the script
 
 ## Introduction
-This repository allows us to use a makefile to dowload a `.csv` file containing information about NYC inmates discharged from prison in 2018 and run a shell script which uses AWK to analyze the information about the inmates. <br></br>
-This script 
+
+In this project I create a zsh shell script to understand data that is dowloaded. In order to execute the script easily I created a makefile which actually downloads the data and executes the script, using a makefile makes the execution of the shell easier through one command in the terminal.<br></br>
+This repository allows us to use a makefile to dowload a `.csv` file containing information about NYC inmates discharged from prison in 2018 and run a shell script which uses AWK commands to analyze the information about the inmates. <br></br>
+
+The shell script 
 - calculates the amount of discharged prisoners according to gender 
 - calculates the amount of discharged prisoners according to age
 - calculates the average age of the discharged prisoners
 - prints all this information to a new file  
-
 
 This raw data is downloaded from [NYCOpenData](https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium). 
 
