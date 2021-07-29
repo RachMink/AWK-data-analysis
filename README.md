@@ -25,5 +25,4 @@ it also calculates the average age of the prisoners and prints all this informat
 <img width="670" alt="Screen Shot 2021-07-29 at 8 34 42 AM" src="https://user-images.githubusercontent.com/82296790/127492544-d19a0bfc-5e88-45c0-99bb-03b96c888f97.png">
 
 ##### Notes
-
 please look at comments in script to understand how the script works
