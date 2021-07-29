@@ -4,8 +4,10 @@ use makefile to run the script
 
 ## Introduction
 This repository allows us to use a makefile to dowload a `.csv` file containing information about NYC inmates discharged from prison and run a shell script which uses AWK to 
-analyze the information. The script calculates the amount of discharged prisoners according to gender and according to age, 
-it also calculates the average age of the prisoners and prints all this information to a new file.
+analyze the information. The script calculates the amount of discharged prisoners according to gender and according to age separately, 
+it also calculates the average age of the discharged prisoners and prints all this information to a new file.
+
+This raw data is downloaded from [NYCOpenData](https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium). 
 
 ## How To Use
 *please be sure that curl is installed on your computer before doing this exercize*
