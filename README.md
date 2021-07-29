@@ -13,7 +13,9 @@ The shell script
 - calculates the average age of the discharged prisoners
 - prints all this information to a new file  
 
-This raw data is downloaded from [NYCOpenData](https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium). 
+This raw data is downloaded from [NYCOpenData](https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium).
+The dataset includes the inmate ID, data admitted, date released, race, gender , age , inmate status, and convicted charge. 
+For this project I will utilize the gender and age (columns 5 and 6) of the inmate information. 
 
 ## How To Use
 *please be sure that curl is installed on your computer before doing this exercize*
