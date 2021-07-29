@@ -3,8 +3,7 @@ use AWK to write a Script analyzing a CSV file
 use makefile to run the script
 
 ## Introduction
-This repository allows us to use a makefile to dowload a `.csv` file containing information about NYC inmates discharged from prison and run a shell script which uses AWK to 
-analyze the information. <br></br>
+This repository allows us to use a makefile to dowload a `.csv` file containing information about NYC inmates discharged from prison in 2018 and run a shell script which uses AWK to analyze the information about the inmates. <br></br>
 This script 
 - calculates the amount of discharged prisoners according to gender 
 - calculates the amount of discharged prisoners according to age
