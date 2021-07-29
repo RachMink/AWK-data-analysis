@@ -10,12 +10,13 @@ it calculates the average age of the prisoners and prints all this information t
 *please be sure that curl is installed on your computer before doing this exercize*
 
 1. Open the terminal
-2. Clone this repo by typing in terminal: `git clone https://github.com/RachMink/CISC3140Lab3Task1.git`
-3. Be sure that you are in the proper folder using `cd CISC3140Lab3Task1`
-4. use the `ls` command to see that your folder contains `makefile` `nycScript.sh` and `README.md`
-5. run command `make`
-6. now if you `ls` you should have two extra files called `inmateFile.csv` which contains the original data used and `newFile.csv` which contains the filtered data
-7. if you would like to only use the terminal in this exercize you can type `cat newFile.csv` which should print a limited amount of data about geneder and ages, otherwise you should be able to open a `.csv` file through your finder on your pc 
+2. Be sure that you are in the file you would like to clone the repository into, if you are not- `cd` into the appropriate file
+3. Clone this repo by typing in terminal: `git clone https://github.com/RachMink/CISC3140Lab3Task1.git`
+4. after cloning direct yourself into the proper folder using `cd CISC3140Lab3Task1`
+5. use the `ls` command to see that your folder contains `README.md` `makefile` and `nycScript.sh`  
+6. run command `make`
+7. now if you `ls` you should have two extra files called `inmateFile.csv` which contains the original data used and `newFile.csv` which contains the filtered data
+8. if you would like to only use the terminal in this exercize you can type `cat newFile.csv` which should print the amount of inmates discharged per gender and age, otherwise you should be able to open a `.csv` file through your finder on your pc 
 
 ### `inmateFile.csv`
 <img width="751" alt="Screen Shot 2021-07-29 at 8 36 08 AM" src="https://user-images.githubusercontent.com/82296790/127492740-ebcbb8c4-d03f-43ba-b25f-eb0b8faac348.png">
