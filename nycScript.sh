@@ -1,4 +1,4 @@
-#this line allows us to delete the first line of the downloaded file
+#this line deletes the first line of the downloaded file
 #as it is the header and should not be mixed in with the data
 sed -i '' -e '1d' inmateFile.csv
 
