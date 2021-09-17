@@ -1,4 +1,4 @@
-# CISC3140Lab3Task1
+# Using AWK and Makefile to analyze a CSV file
 use AWK to write a Script analyzing a CSV file
 use makefile to run the script
 
